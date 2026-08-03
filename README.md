@@ -1,6 +1,6 @@
 # Degradation-Aware Optimal Sizing Framework for Grid-Interactive EV Charging Stations
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1321917842.svg)](https://doi.org/10.5281/zenodo.21777510)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Paper
@@ -251,7 +251,7 @@ If you use these results in your research, please cite:
   journal = {Modern Power Systems and Clean Energy},
   year    = {2026},
   note    = {Under review},
-  doi     = {10.5281/zenodo.XXXXXXX}
+  doi     = {10.5281/zenodo.21777510}
 }
 ```
 
@@ -281,6 +281,6 @@ provided appropriate credit is given.
 
 **v1.0** -- August 2026 (MPCE submission)
 
-Zenodo DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+Zenodo DOI: [10.5281/zenodo.21777510](https://doi.org/10.5281/zenodo.21777510)
 
 GitHub: [https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC](https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC)
