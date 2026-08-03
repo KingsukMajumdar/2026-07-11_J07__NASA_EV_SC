@@ -1,0 +1,5 @@
+Algorithm,Mode_SC,Fraction
+GWO,17,0.9
+BBO,19,0.1
+AO,17,0.16666666666666666
+ARO,17,0.5

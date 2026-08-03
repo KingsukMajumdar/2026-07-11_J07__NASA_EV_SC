@@ -1,0 +1,49 @@
+S03 V8 Final Results Summary [FULL RUN]
+Run date   : 2026-08-03 16:44:24
+Run mode   : FULL | Pop=50 | Iter=500
+Runtime    : 0.0 minutes
+Algorithms : ['GWO', 'BBO', 'AO', 'ARO']
+Cases      : []
+Checkpoint : every 10 iterations [tag: full]
+SC capex   : $400/module (reduced from $800 -- bulk research price)
+Peak factor: 3.0x for 7 min/hr
+
+--- Case 1: PV+Grid (Baseline) ---
+  GWO   : TAC=$ 25,620.54/yr  LPSP=0.078%  PV=47.1kWp  BESS=0.0kWh  SC=1mod
+  BBO   : TAC=$ 25,620.57/yr  LPSP=0.078%  PV=47.2kWp  BESS=0.0kWh  SC=1mod
+  AO    : TAC=$ 25,620.54/yr  LPSP=0.078%  PV=47.1kWp  BESS=0.0kWh  SC=1mod
+  ARO   : TAC=$ 25,620.54/yr  LPSP=0.078%  PV=47.1kWp  BESS=0.0kWh  SC=1mod
+
+--- Case 2: PV+BESS+Grid ---
+  GWO   : TAC=$ 22,785.91/yr  LPSP=0.041%  PV=53.9kWp  BESS=94.9kWh  SC=1mod
+  BBO   : TAC=$ 22,789.03/yr  LPSP=0.041%  PV=53.5kWp  BESS=96.4kWh  SC=1mod
+  AO    : TAC=$ 22,791.26/yr  LPSP=0.044%  PV=52.3kWp  BESS=94.4kWh  SC=1mod
+  ARO   : TAC=$ 22,787.32/yr  LPSP=0.040%  PV=53.9kWp  BESS=95.9kWh  SC=1mod
+
+--- Case 3: PV+BESS+Grid+Degradation ---
+  GWO   : TAC=$ 22,785.94/yr  LPSP=0.040%  PV=53.8kWp  BESS=95.3kWh  SC=1mod
+  BBO   : TAC=$ 22,787.05/yr  LPSP=0.042%  PV=53.6kWp  BESS=93.2kWh  SC=1mod
+  AO    : TAC=$ 22,789.69/yr  LPSP=0.043%  PV=53.7kWp  BESS=92.2kWh  SC=1mod
+  ARO   : TAC=$ 22,787.65/yr  LPSP=0.043%  PV=53.8kWp  BESS=93.0kWh  SC=1mod
+
+--- Case 4: PV+BESS+SC+Grid (Proposed) ---
+  GWO   : TAC=$ 20,659.33/yr  LPSP=0.039%  PV=61.3kWp  BESS=137.6kWh  SC=17mod
+  BBO   : TAC=$ 20,682.76/yr  LPSP=0.039%  PV=61.0kWp  BESS=137.1kWh  SC=17mod
+  AO    : TAC=$ 20,727.68/yr  LPSP=0.039%  PV=61.0kWp  BESS=127.1kWh  SC=17mod
+  ARO   : TAC=$ 20,664.78/yr  LPSP=0.039%  PV=61.4kWp  BESS=140.6kWh  SC=17mod
+
+--- Output Files ---
+  S03_R01_main_results_table_full.csv  (2.8 KB)
+  S03_R01_main_results_table_medium.csv  (0.0 KB)
+  S03_R02_convergence_case1.csv  (38.6 KB)
+  S03_R02_convergence_case2.csv  (38.3 KB)
+  S03_R02_convergence_case3.csv  (37.9 KB)
+  S03_R02_convergence_case4.csv  (38.0 KB)
+  S03_R03_bibbo_best_solutions.json  (0.9 KB)
+  S03_R03_gwo_best_solutions.json  (3.2 KB)
+  S03_R04_tac_comparison_all_cases.csv  (0.1 KB)
+  S03_R04_tac_comparison_case4.csv  (0.1 KB)
+  S03_REPORT_summary_full.txt  (2.3 KB)
+  S03_REPORT_summary_medium.txt  (1.1 KB)
+
+Next step: Run S04_figures_analysis.py

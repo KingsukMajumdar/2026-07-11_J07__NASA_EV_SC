@@ -1,0 +1,49 @@
+% S08 Table: 30-run statistical results
+% File: S08_R06_latex_table.tex
+% Input: \input{FIGURES/S08_R06_latex_table}
+\begin{table}[!t]
+\caption{Statistical Comparison of Four Algorithms Over 30 Independent
+  Runs on Case~4 (PV--BESS--SC--Grid;
+  $N_\mathrm{iter}=100$, $N_\mathrm{pop}=15$,
+  seeds 1000--1029)}
+\label{tab:stats30}
+\centering
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Algo.} &
+  \textbf{Mean} &
+  \textbf{SD} &
+  \textbf{Best} &
+  \textbf{Worst} &
+  \textbf{CV} &
+  \textbf{Rank} &
+  \textbf{$p$-val.$^\dagger$} \\
+ & (\$/yr) & (\$/yr) & (\$/yr) & (\$/yr) & (\%) & & \\
+\midrule
+\textbf{GWO} &
+  \textbf{20{,}683} & \textbf{10.97} &
+  \textbf{20{,}667} & \textbf{20{,}707} &
+  \textbf{0.053} & \textbf{1.00} & -- \\
+ARO &
+  20{,}817 & 66.68 &
+  20{,}719 & 21{,}018 &
+  0.320 & 2.03 & $<$0.0001 \\
+BBO &
+  21{,}364 & 312.48 &
+  20{,}876 & 22{,}017 &
+  1.463 & 3.47 & $<$0.0001 \\
+AO &
+  21{,}387 & 334.01 &
+  20{,}772 & 22{,}084 &
+  1.562 & 3.50 & $<$0.0001 \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize
+  $^\dagger$Wilcoxon signed-rank (one-sided, GWO $<$ other), $\alpha=0.05$.}\\
+\multicolumn{8}{l}{\footnotesize
+  Friedman: $\chi^{2}=79.24$, $p<0.0001$;
+  Nemenyi CD$_{0.05}=0.856$.}\\
+\multicolumn{8}{l}{\footnotesize
+  Bold: best algorithm. Rank: Friedman mean rank (lower=better).}\\
+\end{tabular}
+\end{table}

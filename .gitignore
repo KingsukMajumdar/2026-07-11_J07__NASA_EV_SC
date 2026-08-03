@@ -1,0 +1,6 @@
+PythonCode/
+*.pyc
+__pycache__/
+.venv/
+*.mat
+*.h5

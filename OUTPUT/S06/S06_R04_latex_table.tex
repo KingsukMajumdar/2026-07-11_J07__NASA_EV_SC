@@ -1,0 +1,20 @@
+% Table: Algorithm performance metrics (add to paper)
+\begin{table}[!t]
+\caption{Algorithm Performance: Normalised AUC and Convergence Speed}
+\label{tab:algoperf}
+\centering
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Algorithm} & \multicolumn{4}{c}{\textbf{Convergence speed (iterations)}} & \textbf{Mean} & \textbf{Mean} \\
+\cmidrule(lr){2-5}
+ & Case~1 & Case~2 & Case~3 & Case~4 & \textbf{AUC rank} & \textbf{Speed rank} \\
+\midrule
+\textbf{GWO} & 0 & 3 & 2 & 27 & 1.50 & 1.50 \\
+\textbf{ARO} & 0 & 4 & 3 & 11 & 2.00 & 1.75 \\
+BBO & 0 & 4 & 0 & 107 & 3.00 & 1.75 \\
+AO & 0 & 59 & 8 & 347 & 3.50 & 3.25 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize AUC: normalised area under convergence curve (lower=better);}\\
+\multicolumn{7}{l}{\footnotesize Speed: iterations to reach within 1\% of final TAC.}\\
+\end{tabular}
+\end{table}

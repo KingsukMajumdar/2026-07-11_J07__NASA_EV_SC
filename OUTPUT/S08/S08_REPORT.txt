@@ -1,0 +1,65 @@
+=================================================================
+  S08 -- 30-RUN STATISTICAL VALIDATION REPORT
+=================================================================
+Run date : 2026-08-03 16:44:25
+Case     : Case 4 (PV+BESS+SC+Grid)
+Runs     : 30 per algorithm, seeds 1000-1029
+Iter/Pop : 100 / 15
+
+--- SUMMARY STATISTICS ---
+Algo       Mean TAC      Std       Best      Worst     CV%   Rank
+----------------------------------------------------------
+GWO    $ 20,682.64 $  10.97 $20,667.05 $20,707.33  0.053%  1.00
+ARO    $ 20,817.49 $  66.68 $20,718.73 $21,018.21  0.320%  2.03
+BBO    $ 21,364.10 $ 312.48 $20,875.65 $22,017.36  1.463%  3.47
+AO     $ 21,386.88 $ 334.01 $20,772.07 $22,083.57  1.562%  3.50
+
+--- FRIEDMAN TEST ---
+chi2=79.2400, p=0.000000
+Significant (alpha=0.05)
+Nemenyi CD=0.8563
+
+--- WILCOXON (GWO vs each) ---
+  GWO vs BBO : W=0.0, p=0.0000 -- SIGNIFICANT
+  GWO vs AO  : W=0.0, p=0.0000 -- SIGNIFICANT
+  GWO vs ARO : W=0.0, p=0.0000 -- SIGNIFICANT
+
+--- SC MODULE CONSISTENCY (full distribution) ---
+  GWO: mode=SC=17(90%), SC=17:90%  [SC=17:27runs, SC=18:3runs]
+  BBO: mode=SC=19(10%), SC=17:3%  [SC=14:1runs, SC=15:3runs, SC=16:2runs, SC=17:1runs, SC=18:3runs, SC=19:3runs, SC=20:2runs, SC=21:1runs, SC=22:1runs, SC=23:3runs, SC=24:1runs, SC=25:2runs, SC=26:2runs, SC=27:1runs, SC=30:1runs, SC=31:1runs, SC=32:1runs, SC=33:1runs]
+  AO: mode=SC=17(17%), SC=17:17%  [SC=14:2runs, SC=15:4runs, SC=17:5runs, SC=18:4runs, SC=19:3runs, SC=20:2runs, SC=21:1runs, SC=22:1runs, SC=23:1runs, SC=24:2runs, SC=25:1runs, SC=26:1runs, SC=27:1runs, SC=28:1runs, SC=38:1runs]
+  ARO: mode=SC=17(50%), SC=17:50%  [SC=16:1runs, SC=17:15runs, SC=18:9runs, SC=19:4runs, SC=20:1runs]
+
+--- PAPER TEXT (Section VI-B, replace existing paragraph) ---
+
+\paragraph{Statistical validation}
+To establish statistical confidence in the comparative
+results, each algorithm is executed over 30~independent
+runs using distinct random seeds (1000--1029) on Case~4
+(four decision variables, $N_\mathrm{iter}=100$,
+$N_\mathrm{pop}=15$).
+Table~\ref{tab:stats30} summarises the TAC statistics.
+GWO achieves the lowest mean TAC (\$20,682.64\,\$/yr, SD~=~\$10.97\,\$/yr,
+CV~=~0.053\%), confirming its consistency.
+The Friedman rank test across all 30~runs yields
+$\chi^{2}=79.240$, $p<0.0001$ ($\alpha=0.05$),
+with GWO achieving the lowest mean rank (1.00).
+Pairwise Wilcoxon signed-rank tests (one-sided, $\alpha=0.05$)
+confirm GWO outperforms all three competitors
+significantly (all $p<0.0001$),
+with GWO achieving the lowest mean rank (1.00).
+SC bank sizing shows algorithm-dependent consistency:
+GWO selects 17~modules in 90\% of runs
+and ARO in 50\%, while
+BBO and AO exhibit higher SC-sizing scatter,
+reflecting their larger TAC variability.
+The best-found TAC spread in a single run is only
+0.33\% (Table~\ref{tab:sizing}), demonstrating that
+all algorithms locate the same near-optimal region.
+Across 30~independent runs, mean TAC spans
+\$704/yr
+(3.40\%),
+indicating that GWO and ARO provide substantially
+more reliable convergence than BBO and AO for this
+mixed-integer sizing problem.
+=================================================================

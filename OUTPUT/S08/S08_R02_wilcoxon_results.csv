@@ -1,0 +1,5 @@
+Algo_1,Algo_2,W_stat,p_value,Significant_0.05,Note
+GWO,GWO,,,False,Reference
+GWO,BBO,0.0000,0.0000,True,GWO significantly better
+GWO,AO,0.0000,0.0000,True,GWO significantly better
+GWO,ARO,0.0000,0.0000,True,GWO significantly better

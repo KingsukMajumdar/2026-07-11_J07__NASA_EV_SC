@@ -1,0 +1,7 @@
+Algo_1,Algo_2,Rank_diff,CD,Significant
+GWO,BBO,2.4667,0.8563,True
+GWO,AO,2.5000,0.8563,True
+GWO,ARO,1.0333,0.8563,True
+BBO,AO,0.0333,0.8563,False
+BBO,ARO,1.4333,0.8563,True
+AO,ARO,1.4667,0.8563,True
