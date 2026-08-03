@@ -1,0 +1,113 @@
+cff-version: 1.2.0
+message: >
+  If you use these results in your research, please cite
+  both the dataset and the paper as given below.
+
+title: >
+  Degradation-Aware Optimal Sizing Framework for
+  Grid-Interactive EV Charging Stations with PV, BESS,
+  and Supercapacitor: Real Dataset Validation Using
+  NASA PCoE, ACN-Data, and CHARGED -- Simulation Results
+  and Validation Data
+
+authors:
+  - family-names: Majumdar
+    given-names: Kingsuk
+    orcid: https://orcid.org/0000-0001-7224-4862
+    affiliation: >
+      Department of Electrical Engineering,
+      Dr. B. C. Roy Engineering College,
+      Durgapur 713206, West Bengal, India
+    email: kingsuk.majumdar@bcrec.ac.in
+
+  - family-names: Ghosh
+    given-names: Sohini
+    orcid: https://orcid.org/0009-0008-8266-7701
+    affiliation: >
+      Department of Economics (Basic Science and Humanities),
+      Dr. B. C. Roy Engineering College,
+      Durgapur 713206, West Bengal, India
+    email: sohini.ghosh@bcrec.ac.in
+
+  - family-names: Kumar
+    given-names: Nishant
+    orcid: https://orcid.org/0009-0000-1235-4330
+    affiliation: >
+      Department of Electrical Engineering,
+      Indian Institute of Technology Jodhpur,
+      Rajasthan 342030, India
+    email: nishantkumar@iitj.ac.in
+
+  - family-names: Ghosh
+    given-names: Indrani
+    orcid: https://orcid.org/0009-0004-0429-7443
+    affiliation: >
+      Department of Electrical Engineering,
+      Dr. B. C. Roy Engineering College,
+      Durgapur 713206, West Bengal, India
+    email: xxxxx@gmail.com
+
+version: 1.0.0
+date-released: 2026-08-03
+
+repository-code: https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC
+
+license: CC-BY-4.0
+
+keywords:
+  - EV charging station
+  - optimal sizing
+  - battery degradation
+  - supercapacitor
+  - photovoltaic
+  - Grey Wolf Optimizer
+  - NASA PCoE
+  - ACN-Data
+  - CHARGED dataset
+  - metaheuristic optimization
+  - hybrid energy storage
+  - Friedman test
+  - Wilcoxon test
+  - statistical validation
+
+abstract: >
+  This dataset contains all numerical results, statistical
+  validation data, sensitivity analysis outputs, and
+  publication figures supporting the paper submitted to
+  Modern Power Systems and Clean Energy (MPCE). The
+  repository includes optimal sizing results for four
+  case studies and four algorithms (GWO, BBO, AO, ARO),
+  30-run statistical validation with Friedman and Wilcoxon
+  tests, sensitivity analysis for the degradation parameter
+  and sub-hourly peak factor, and all publication figures.
+  GWO achieves a mean TAC of $20,683/yr with CV=0.053%
+  across 30 independent runs, confirming near-deterministic
+  performance on this mixed-integer sizing problem.
+
+preferred-citation:
+  type: article
+  title: >
+    Degradation-Aware Optimal Sizing Framework for
+    Grid-Interactive EV Charging Stations with PV, BESS,
+    and Supercapacitor: Real Dataset Validation Using
+    NASA PCoE, ACN-Data, and CHARGED
+  authors:
+    - family-names: Majumdar
+      given-names: Kingsuk
+      orcid: https://orcid.org/0000-0001-7224-4862
+    - family-names: Ghosh
+      given-names: Sohini
+      orcid: https://orcid.org/0009-0008-8266-7701
+    - family-names: Kumar
+      given-names: Nishant
+      orcid: https://orcid.org/0009-0000-1235-4330
+    - family-names: Ghosh
+      given-names: Indrani
+      orcid: https://orcid.org/0009-0004-0429-7443
+  journal: Modern Power Systems and Clean Energy
+  publisher:
+    name: IEEE/SGEPRI
+  year: 2026
+  status: submitted
+  notes: >
+    Under review. MPCE, Diamond Open Access, IF 6.3, Q1.

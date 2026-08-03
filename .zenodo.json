@@ -1,0 +1,79 @@
+{
+  "title": "Degradation-Aware Optimal Sizing Framework for Grid-Interactive EV Charging Stations with PV, BESS, and Supercapacitor: Real Dataset Validation Using NASA PCoE, ACN-Data, and CHARGED -- Simulation Results and Validation Data",
+  "description": "This dataset contains all numerical results, statistical validation data, sensitivity analysis outputs, and publication figures supporting the paper submitted to Modern Power Systems and Clean Energy (MPCE), IEEE/SGEPRI, IF 6.3, Q1. The repository includes: (i) optimal sizing results for all four case studies and four algorithms (GWO, BBO, AO, ARO); (ii) 30-run statistical validation results with Friedman rank test, Nemenyi post-hoc analysis, and Wilcoxon signed-rank tests; (iii) sensitivity analysis for the commercial degradation parameter alpha_comm and the sub-hourly peak factor kp; (iv) convergence quality metrics (AUC and speed); and (v) all publication figures. Raw datasets (NASA PCoE, ACN-Data, PVGIS-ERA5, CHARGED) are not included due to individual licensing but are publicly available at the sources cited in the paper. Simulation pipeline scripts are available from the corresponding author upon reasonable request.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "publication_date": "2026-08-03",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Majumdar, Kingsuk",
+      "affiliation": "Department of Electrical Engineering, Dr. B. C. Roy Engineering College, Durgapur 713206, West Bengal, India",
+      "orcid": "0000-0001-7224-4862"
+    },
+    {
+      "name": "Ghosh, Sohini",
+      "affiliation": "Department of Economics (Basic Science and Humanities), Dr. B. C. Roy Engineering College, Durgapur 713206, West Bengal, India",
+      "orcid": "0009-0008-8266-7701"
+    },
+    {
+      "name": "Kumar, Nishant",
+      "affiliation": "Department of Electrical Engineering, Indian Institute of Technology Jodhpur, Rajasthan 342030, India",
+      "orcid": "0009-0000-1235-4330"
+    },
+    {
+      "name": "Ghosh, Indrani",
+      "affiliation": "Department of Electrical Engineering, Dr. B. C. Roy Engineering College, Durgapur 713206, West Bengal, India",
+      "orcid": "0009-0004-0429-7443"
+    }
+  ],
+  "keywords": [
+    "EV charging station",
+    "optimal sizing",
+    "battery degradation",
+    "supercapacitor",
+    "photovoltaic",
+    "Grey Wolf Optimizer",
+    "GWO",
+    "NASA PCoE",
+    "ACN-Data",
+    "CHARGED dataset",
+    "time-of-use tariff",
+    "demand charge",
+    "metaheuristic optimization",
+    "hybrid energy storage",
+    "BESS",
+    "grid-interactive",
+    "Friedman test",
+    "Wilcoxon test",
+    "statistical validation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://ev.caltech.edu/dataset",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1038/s41597-025-05584-7",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Submitted to Modern Power Systems and Clean Energy (MPCE), IEEE/SGEPRI, Diamond Open Access, IF 6.3, Q1. Simulation pipeline scripts (S01-S08, Python 3.13) are available from the corresponding author (kingsuk.majumdar@bcrec.ac.in) upon reasonable request. Hardware: HP Victus (AMD Ryzen 9 8945HS, 16 GB RAM, Manjaro Linux). The 30-run statistical validation (S08) used N_iter=100, N_pop=15, seeds 1000-1029.",
+  "communities": [
+    {"identifier": "zenodo"}
+  ],
+  "grants": []
+}
