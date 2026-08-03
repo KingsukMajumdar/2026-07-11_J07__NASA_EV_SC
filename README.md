@@ -30,7 +30,7 @@ upon reasonable request (kingsuk.majumdar@bcrec.ac.in).
 ```
 2026-07-11_J07__NASA_EV_SC/
 |
-+-- README.md                          <- This file
++-- README.md                          <- This file 
 |
 +-- OUTPUT/
 |   |
@@ -264,7 +264,7 @@ If you use these results in your research, please cite:
 | **Kingsuk Majumdar** (Corresponding) | Dept. of Electrical Engineering, Dr. B. C. Roy Engineering College, Durgapur 713206, India | [0000-0001-7224-4862](https://orcid.org/0000-0001-7224-4862) | kingsuk.majumdar@bcrec.ac.in |
 | Sohini Ghosh | Dept. of Economics (BSH), Dr. B. C. Roy Engineering College, Durgapur 713206, India | [0009-0008-8266-7701](https://orcid.org/0009-0008-8266-7701) | sohini.ghosh@bcrec.ac.in |
 | Nishant Kumar | Dept. of Electrical Engineering, IIT Jodhpur, Rajasthan 342030, India | [0009-0000-1235-4330](https://orcid.org/0009-0000-1235-4330) | nishantkumar@iitj.ac.in |
-| Indrani Ghosh | Dept. of Electrical Engineering, Dr. B. C. Roy Engineering College, Durgapur 713206, India | [0009-0004-0429-7443](https://orcid.org/0009-0004-0429-7443) | indranijnv2003@gmail.com |
+| Indrani Ghosh | Dept. of Electrical Engineering, Dr. B. C. Roy Engineering College, Durgapur 713206, India | [0009-0004-0429-7443](https://orcid.org/0009-0004-0429-7443) | xxxxxx@gmail.com |
 
 ---
 
