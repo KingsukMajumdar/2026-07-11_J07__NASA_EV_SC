@@ -4,11 +4,11 @@ message: >
   both the dataset and the paper as given below.
 
 title: >
-  Degradation-Aware Optimal Sizing Framework for
-  Grid-Interactive EV Charging Stations with PV, BESS,
-  and Supercapacitor: Real Dataset Validation Using
-  NASA PCoE, ACN-Data, and CHARGED -- Simulation Results
-  and Validation Data
+  Empirical Degradation-Aware Sizing of Hybrid
+  PV-BESS-Supercapacitor Energy Storage Systems for
+  EV Charging Stations: NASA PCoE Cycle-Life Calibration,
+  Real-World Demand Validation, and Geographic Tariff
+  Analysis -- Simulation Results and Validation Data
 
 authors:
   - family-names: Majumdar
@@ -47,8 +47,8 @@ authors:
       Durgapur 713206, West Bengal, India
     email: xxxxx@gmail.com
 
-version: 1.0.0
-date-released: 2026-08-03
+version: 2.0.0
+date-released: 2026-08-08
 
 repository-code: https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC
 
@@ -56,7 +56,7 @@ license: CC-BY-4.0
 
 keywords:
   - EV charging station
-  - optimal sizing
+  - hybrid energy storage
   - battery degradation
   - supercapacitor
   - photovoltaic
@@ -64,8 +64,9 @@ keywords:
   - NASA PCoE
   - ACN-Data
   - CHARGED dataset
+  - real tariff validation
+  - lifecycle extension
   - metaheuristic optimization
-  - hybrid energy storage
   - Friedman test
   - Wilcoxon test
   - statistical validation
@@ -73,24 +74,29 @@ keywords:
 abstract: >
   This dataset contains all numerical results, statistical
   validation data, sensitivity analysis outputs, and
-  publication figures supporting the paper submitted to
-  Modern Power Systems and Clean Energy (MPCE). The
-  repository includes optimal sizing results for four
-  case studies and four algorithms (GWO, BBO, AO, ARO),
+  publication figures supporting the paper under review.
+  The repository includes best-found sizing results for
+  four case studies and four algorithms (GWO, BBO, AO, ARO)
+  under a rule-based energy management strategy,
   30-run statistical validation with Friedman and Wilcoxon
   tests, sensitivity analysis for the degradation parameter
-  and sub-hourly peak factor, and all publication figures.
-  GWO achieves a mean TAC of $20,683/yr with CV=0.053%
-  across 30 independent runs, confirming near-deterministic
-  performance on this mixed-integer sizing problem.
-
+  and sub-hourly peak factor, and real geographic tariff
+  validation using SCE, Vattenfall, and ANEEL rates for
+  three CHARGED city profiles. Key results: GWO achieves
+  a mean TAC of $20,683/yr with CV=0.053% across 30
+  independent runs (near-deterministic); SC integration
+  reduces BESS equivalent full-cycle count by 21.1%
+  (247 to 195 cycles/yr), extending effective BESS service
+  life by 2.2 years; SC bank size is driven by local demand
+  charge level, not by energy price or solar resource.
 preferred-citation:
   type: article
   title: >
-    Degradation-Aware Optimal Sizing Framework for
-    Grid-Interactive EV Charging Stations with PV, BESS,
-    and Supercapacitor: Real Dataset Validation Using
-    NASA PCoE, ACN-Data, and CHARGED
+    Empirical Degradation-Aware Sizing of Hybrid
+    PV-BESS-Supercapacitor Energy Storage Systems for
+    EV Charging Stations: NASA PCoE Cycle-Life Calibration,
+    Real-World Demand Validation, and Geographic Tariff
+    Analysis
   authors:
     - family-names: Majumdar
       given-names: Kingsuk
@@ -104,10 +110,8 @@ preferred-citation:
     - family-names: Ghosh
       given-names: Indrani
       orcid: https://orcid.org/0009-0004-0429-7443
-  journal: Modern Power Systems and Clean Energy
-  publisher:
-    name: IEEE/SGEPRI
   year: 2026
   status: submitted
   notes: >
-    Under review. MPCE, Diamond Open Access, IF 6.3, Q1.
+    Under review (August 2026).
+    Data and results: https://doi.org/10.5281/zenodo.21777510
