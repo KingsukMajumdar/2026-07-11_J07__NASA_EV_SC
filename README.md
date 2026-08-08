@@ -1,17 +1,17 @@
 # Empirical Degradation-Aware Sizing of Hybrid PV-BESS-Supercapacitor Energy Storage Systems for EV Charging Stations
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21777510.svg)](https://doi.org/10.5281/zenodo.21777510)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21841185.svg)](https://doi.org/10.5281/zenodo.21841185)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Paper
 
-**Title:** Empirical Degradation-Aware Sizing of Hybrid PV--BESS--Supercapacitor Energy Storage Systems for EV Charging Stations: NASA PCoE Cycle-Life Calibration, Real-World Demand Validation, and Geographic Tariff Analysis
+**Title:** Empirical Degradation-Aware Sizing of Hybrid Photovoltaic--Battery--Supercapacitor Energy Storage Systems for Electric Vehicle Charging Stations: Cycle-Life Calibration, Real-World Demand Validation, and Geographic Tariff Analysis
 
 **Authors:** Kingsuk Majumdar, Sohini Ghosh, Nishant Kumar, Indrani Ghosh
 
 **Status:** Under Review (August 2026)
 
-**Preprint / Data DOI:** [10.5281/zenodo.21777510](https://doi.org/10.5281/zenodo.21777510)
+**Preprint / Data DOI:** [10.5281/zenodo.21841185](https://doi.org/10.5281/zenodo.21841185)
 
 ---
 
@@ -267,8 +267,8 @@ Results data and figures: [Creative Commons Attribution 4.0 (CC BY 4.0)](https:/
 
 ## Repository Version
 
-**v2.0** -- August 2026
+**v2.1** -- August 2026
 
-Zenodo DOI: [10.5281/zenodo.21777510](https://doi.org/10.5281/zenodo.21777510)
+Zenodo DOI: [10.5281/zenodo.21841185](https://doi.org/10.5281/zenodo.21841185)
 
 GitHub: [https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC](https://github.com/KingsukMajumdar/2026-07-11_J07__NASA_EV_SC)

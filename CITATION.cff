@@ -4,11 +4,7 @@ message: >
   both the dataset and the paper as given below.
 
 title: >
-  Empirical Degradation-Aware Sizing of Hybrid
-  PV-BESS-Supercapacitor Energy Storage Systems for
-  EV Charging Stations: NASA PCoE Cycle-Life Calibration,
-  Real-World Demand Validation, and Geographic Tariff
-  Analysis -- Simulation Results and Validation Data
+  Empirical Degradation-Aware Sizing of Hybrid Photovoltaic--Battery--Supercapacitor Energy Storage Systems for Electric Vehicle Charging Stations: Cycle-Life Calibration, Real-World Demand Validation, and Geographic Tariff Analysis
 
 authors:
   - family-names: Majumdar
@@ -92,11 +88,7 @@ abstract: >
 preferred-citation:
   type: article
   title: >
-    Empirical Degradation-Aware Sizing of Hybrid
-    PV-BESS-Supercapacitor Energy Storage Systems for
-    EV Charging Stations: NASA PCoE Cycle-Life Calibration,
-    Real-World Demand Validation, and Geographic Tariff
-    Analysis
+    Empirical Degradation-Aware Sizing of Hybrid Photovoltaic--Battery--Supercapacitor Energy Storage Systems for Electric Vehicle Charging Stations: Cycle-Life Calibration, Real-World Demand Validation, and Geographic Tariff Analysis
   authors:
     - family-names: Majumdar
       given-names: Kingsuk
@@ -114,4 +106,4 @@ preferred-citation:
   status: submitted
   notes: >
     Under review (August 2026).
-    Data and results: https://doi.org/10.5281/zenodo.21777510
+    Data and results: https://doi.org/10.5281/zenodo.21841185

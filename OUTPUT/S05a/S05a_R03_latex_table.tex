@@ -1,0 +1,22 @@
+% S05a Table: Real geographic tariff results
+\begin{table}[!t]
+\caption{GWO Case~4 Optimal Sizing Under Real City-Specific Electricity
+  Tariffs (Demand normalised to JPL annual energy: 71{}396\,kWh/yr)}
+\label{tab:charged_real}
+\centering
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{City} & $N_\mathrm{PV}$ & $E_\mathrm{B}$ &
+  $N_\mathrm{SC}$ & \textbf{BESS cyc} & \textbf{TAC} &
+  \textbf{TAC (same tariff)} & \textbf{Tariff source} \\
+& (kW$_\mathrm{p}$) & (kWh) & (mod) & (/yr) &
+  (\$/yr) & (\$/yr) & \\
+\midrule
+Los Angeles & 55.1 & 173.5 & 8 & 261 & \$20,222 & \$20,206 (+15) & \footnotesize SCE TOU-EV-9 (NDP), 2024 \\
+Amsterdam & 26.8 & 20.2 & 6 & 445 & \$16,355 & \$23,621 (-7266) & \footnotesize Vattenfall Zakelijk + ACM ODA, 2024 \\
+Sao Paulo & 19.4 & 20.2 & 6 & 936 & \$11,786 & \$21,028 (-9242) & \footnotesize ANEEL/CPFL B3, 2024 \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize Fixed grid: 30\,kW. Exchange: EUR/USD~=~1.10, BRL/USD~=~0.19 (Aug 2026).} \\
+\end{tabular}
+\end{table}
